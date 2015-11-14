@@ -6,40 +6,47 @@
       <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
       <style type="text/css">
 /*CSS*/
-         *, img, a {box-sizing: border-box; margin: 0; border: 0;}
+         *, img, a, a:visited {box-sizing: border-box; margin: 0; border: 0; color: #222;}
 
-         body {background: url(images/white.png) repeat;}
+         body {
+            background: url(images/white.png) repeat;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.35em;
+            color: #222;
+         }
 
-         .white {
+         .os {
             background: url(images/white.png) no-repeat 0 0;
          }
-         .grey {
+         .cli {
             background: url(images/grey.png) no-repeat 0 0;
          }
-         .pink {
-            background: url(images/pink.png) no-repeat 0 0;
-         }
-         .yellow {
-            background: url(images/yellow.png) no-repeat 0 0;
-         }
-         .purple {
-            background: url(images/purple.png) no-repeat 0 0;
-         }
-         .green {
+         .html {
             background: url(images/green.png) no-repeat 0 0;
          }
-         .blue {
+         .css {
             background: url(images/blue.png) no-repeat 0 0;
          }
+         .js {
+            background: url(images/pink.png) no-repeat 0 0;
+         }
+         .msc-1 {
+            background: url(images/yellow.png) no-repeat 0 0;
+         }
+         .msc-2 {
+            background: url(images/purple.png) no-repeat 0 0;
+         }
 
-         .white,.grey,.pink,.yellow,.purple,.green,.blue {
+
+         .os,.cli,.html,.css,.js,.msc-1,.msc-2 {
             display: block;
             width: 300px;
             height: 200px;
+            padding: 30px;
             overflow: hidden;
             float: left;
          }
-         .white:hover,.grey:hover,.pink:hover,.yellow:hover,.purple:hover,.green:hover,.blue:hover {
+         .os:hover,.cli:hover,.html:hover,.css:hover,.js:hover,.msc-1:hover,.msc-2:hover {
             background-position: -300px 0;
             transition-duration: 0.5s;
          }
@@ -51,75 +58,77 @@
    </head>
    <body>
       <a href="#"><!--resouces link?-->
-         <div class="green">
+         <div class="html">
+            <h1>hello flashcards.</h1>
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="white">
+         <div class="os"> <!-- class groups by topic/color -->
+            <!-- <h2></h2><p></p> ????? how will this be best? -->
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="pink">
+         <div class="css">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="yellow">
+         <div class="html">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="green">
+         <div class="os">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="white">
+         <div class="cli">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="grey">
+         <div class="os">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="pink">
+         <div class="js">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="yellow">
+         <div class="css">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="grey">
+         <div class="html">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="blue">
+         <div class="cli">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="purple">
+         <div class="msc-1">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="green">
+         <div class="msc-1">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="white">
+         <div class="css">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="blue">
+         <div class="js">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="yellow">
+         <div class="os">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="purple">
+         <div class="cli">
          </div>
       </a>
       <a href="#"><!--resouces link?-->
-         <div class="white">
+         <div class="msc-2">
          </div>
       </a>
 </body>
