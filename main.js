@@ -1,3 +1,5 @@
 $(document).ready(function(){
-  $('div').text('hello');
+  // var cards = jsyaml.load('greeting: hello\nname: world');
+  var cards = jsyaml.load('greeting: hello\nname: world');
+  $('div').text(cards['greeting']);
 });
